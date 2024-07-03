@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
      "start": "node index.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "npm run build"
   },
   "author": "",
   "license": "ISC",
