@@ -8,7 +8,7 @@ const Home = () => {
   const [foodItem, setFoodItem] = useState([]);
   const [search,setSearch]=useState('');
   const loadData = async () => {
-    let response = await fetch("http://localhost:4000/api/foodData", {
+    let response = await fetch("https://gofood-nc4b.onrender.com/api/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
