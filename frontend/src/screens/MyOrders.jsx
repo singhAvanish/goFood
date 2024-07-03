@@ -7,7 +7,7 @@ export default function MyOrders() {
 
   const fetchMyOrder = async () => {
     try {
-      const response = await fetch("http://localhost:4000/api/myOrderData", {
+      const response = await fetch("https://gofood-nc4b.onrender.com/api/myOrderData", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
